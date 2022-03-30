@@ -195,7 +195,7 @@ line-height: 140%;
                 //then out of range
                 marker = L.marker([lat, long], {icon: blackIcon})
                 circle = L.circle([lat, long], {radius: accuracy, color:'black'})
-                marker.bindPopup('<p>The current temperature is: </p>'temp).openPopup();
+                marker.bindPopup('<p>The current temperature is out of the range.</p>').openPopup();
             }
             
 
